@@ -7,10 +7,12 @@ import StoreVisit from './components/StoreVisit'
 import LeadCollection from './components/LeadCollection'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
     <div className="min-h-screen bg-white">
+      <SpeedInsights />
       <Header />
       <Hero />
       <BrowseCategories />
