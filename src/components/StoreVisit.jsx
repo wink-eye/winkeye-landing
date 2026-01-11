@@ -19,9 +19,7 @@ const StoreVisit = () => {
                   <span className="mr-2">📍</span> Address
                 </h3>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  123 Main Street<br />
-                  City, State - 123456<br />
-                  India
+                  5/1 Prince Anwar Shah road, near lords more, Kolkata, West Bengal - 700095<br />
                 </p>
               </div>
 
@@ -30,7 +28,7 @@ const StoreVisit = () => {
                   <span className="mr-2">🕐</span> Store Timings
                 </h3>
                 <div className="text-gray-700 text-lg space-y-2">
-                  <p><strong>Monday - Saturday:</strong> 10:00 AM - 8:00 PM</p>
+                  <p><strong>Monday - Saturday:</strong> 10:00 AM - 9:00 PM</p>
                   <p><strong>Sunday:</strong> 11:00 AM - 6:00 PM</p>
                 </div>
               </div>

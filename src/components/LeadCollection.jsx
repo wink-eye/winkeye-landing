@@ -18,8 +18,8 @@ const LeadCollection = () => {
     e.preventDefault()
     
     // Create WhatsApp message
-    const message = `Hi! I'm ${formData.name}. I'm interested in learning more about WinkEye eyewear. My phone number is ${formData.phone}.`
-    const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(message)}`
+    const message = `Hi! I'm ${formData.name}. I have a query regarding WinkEye. My phone number is ${formData.phone}.`
+    const whatsappUrl = `https://wa.me/9163052642?text=${encodeURIComponent(message)}`
     
     // Open WhatsApp
     window.open(whatsappUrl, '_blank')
