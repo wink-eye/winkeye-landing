@@ -1,6 +1,6 @@
 const Hero = () => {
   const handleWhatsApp = () => {
-    window.open('https://wa.me/1234567890', '_blank')
+    window.open('https://wa.me/9163052642', '_blank')
   }
 
   const handleVisitStore = () => {
@@ -50,48 +50,51 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Top Right Card - Exclusive Offer */}
-          <div className="relative h-[240px] md:h-[290px] rounded-2xl overflow-hidden group cursor-pointer">
-            {/* Background Image */}
-            <img 
-              src="/images/sunglasses.jpg" 
-              alt="Sunglasses collection" 
-              className="absolute inset-0 w-full h-full object-cover"
-            />
-            {/* Background Overlay */}
-            <div className="absolute inset-0 bg-eastern-blue/40"></div>
+          {/* Right Column - Two Cards Stacked */}
+          <div className="flex flex-col gap-6">
+            {/* Top Right Card - Exclusive Offer */}
+            <div className="relative h-[240px] md:h-[290px] rounded-2xl overflow-hidden group cursor-pointer">
+              {/* Background Image */}
+              <img 
+                src="/images/sunglasses.jpg" 
+                alt="Sunglasses collection" 
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              {/* Background Overlay */}
+              <div className="absolute inset-0 bg-eastern-blue/40"></div>
 
-            {/* Content */}
-            <div className="absolute inset-0 flex flex-col justify-between p-6">
-              <div className="self-end">
-                <span className="inline-block px-3 py-1 bg-white/90 text-persian-blue text-xs font-semibold rounded">
-                  FOR NEW COMERS
-                </span>
-              </div>
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
-                  EXCLUSIVE<br />OFFER
-                </h3>
+              {/* Content */}
+              <div className="absolute inset-0 flex flex-col justify-between p-6">
+                <div className="self-end">
+                  <span className="inline-block px-3 py-1 bg-white/90 text-persian-blue text-xs font-semibold rounded">
+                    FOR NEW COMERS
+                  </span>
+                </div>
+                <div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
+                    EXCLUSIVE<br />OFFER
+                  </h3>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Bottom Right Card - New Arrivals */}
-          <div className="relative h-[240px] md:h-[290px] rounded-2xl overflow-hidden group cursor-pointer">
-            {/* Background Image */}
-            <img 
-              src="/images/eyeglasses.jpg" 
-              alt="New eyeglasses arrivals" 
-              className="absolute inset-0 w-full h-full object-cover"
-            />
-            {/* Background Overlay */}
-            <div className="absolute inset-0 bg-black/20"></div>
+            {/* Bottom Right Card - New Arrivals */}
+            <div className="relative h-[240px] md:h-[290px] rounded-2xl overflow-hidden group cursor-pointer">
+              {/* Background Image */}
+              <img 
+                src="/images/eyeglasses.jpg" 
+                alt="New eyeglasses arrivals" 
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              {/* Background Overlay */}
+              <div className="absolute inset-0 bg-black/20"></div>
 
-            {/* Content */}
-            <div className="absolute inset-0 flex flex-col justify-end p-6">
-              <button className="w-full px-4 py-2 bg-persian-blue text-white font-semibold rounded-lg hover:bg-persian-blue/90 transition-colors text-sm">
-                NEW ARRIVALS
-              </button>
+              {/* Content */}
+              <div className="absolute inset-0 flex flex-col justify-end p-6">
+                <button className="w-full px-4 py-2 bg-persian-blue text-white font-semibold rounded-lg hover:bg-persian-blue/90 transition-colors text-sm">
+                  NEW ARRIVALS
+                </button>
+              </div>
             </div>
           </div>
         </div>

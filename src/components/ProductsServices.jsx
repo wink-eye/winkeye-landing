@@ -16,7 +16,7 @@ const ProductsServices = () => {
       description: 'Reduce eye strain from digital screens with blue light filtering.'
     },
     {
-      image: '/images/glasses-collection.jpg',
+      image: '/images/eyetesting.jpeg',
       title: 'Eye Testing',
       description: 'Comprehensive eye examinations by certified optometrists.'
     }

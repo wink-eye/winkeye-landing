@@ -27,7 +27,7 @@ const BrowseCategories = () => {
     {
       id: 5,
       name: 'Kids Eyewear',
-      image: '/images/category-kids.jpg',
+      image: '/images/kids-eyewear.jpeg',
       description: 'Durable & fun frames'
     },
     {
