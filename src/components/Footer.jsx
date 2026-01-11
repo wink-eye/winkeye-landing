@@ -17,8 +17,8 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <div className="space-y-2 text-white/80">
-              <p>📍 123 Main Street, City, State - 123456</p>
-              <p>📞 +91 12345 67890</p>
+              <p>📍 5/1 Prince Anwar Shah road, near lords more, Kolkata, West Bengal - 700095</p>
+              <p>📞 +91 9163052642</p>
               <p>✉️ info@winkeye.in</p>
             </div>
           </div>
