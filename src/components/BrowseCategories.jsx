@@ -58,7 +58,7 @@ const BrowseCategories = () => {
                 className="absolute inset-0 w-full h-full object-cover"
               />
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black/40"></div>
+              <div className="absolute inset-0 bg-black/20"></div>
 
               {/* Category Info */}
               <div className="absolute inset-0 flex flex-col justify-end p-4 z-10">
