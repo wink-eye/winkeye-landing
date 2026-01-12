@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
 import BrowseCategories from './components/BrowseCategories'
+import Brands from './components/Brands'
 import WhyWinkEye from './components/WhyWinkEye'
 import ProductsServices from './components/ProductsServices'
 import StoreVisit from './components/StoreVisit'
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <Hero />
       <BrowseCategories />
+      <Brands />
       <WhyWinkEye />
       <ProductsServices />
       <StoreVisit />
