@@ -26,13 +26,14 @@ const Hero = () => {
             <div className="absolute inset-0 flex flex-col justify-end p-8 md:p-12">
               {/* Discount Badge */}
               <div className="mb-4">
-                <span className="inline-block px-6 py-3 bg-white text-persian-blue text-3xl md:text-4xl font-bold rounded-lg shadow-lg">
-                  50% OFF
+                <span className="inline-block px-6 py-3 text-white text-3xl md:text-6xl font-bold rounded-lg shadow-lg">
+                  50%
+                  <span className="px-2 py-3 text-white text-3xl md:text-2xl font-normal">OFF</span>
                 </span>
               </div>
 
               {/* Tagline */}
-              <p className="text-gray-900 text-lg md:text-xl mb-6 max-w-md font-medium drop-shadow-md bg-white/80 px-4 py-2 rounded-lg">
+              <p className="text-white text-lg md:text-xl mb-6 max-w-md font-medium drop-shadow-md px-4 py-2 rounded-lg">
                 Discover quality fashion that reflects your style and makes everyday living more enjoyable
               </p>
 
